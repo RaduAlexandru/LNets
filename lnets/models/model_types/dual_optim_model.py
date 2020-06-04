@@ -1,7 +1,7 @@
 import torch
 from torch.autograd import Variable
 
-from lnets.models.model_types.base_model import ExperimentModel
+from deps.lnets.lnets.models.model_types.base_model import ExperimentModel
 
 
 class DualOptimModel(ExperimentModel):

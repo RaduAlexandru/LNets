@@ -1,6 +1,6 @@
 import torch
 
-from lnets.utils.math.projections import *
+from deps.lnets.lnets.utils.math.projections import *
 
 
 def project_weights(weight, proj_config, cuda=False):

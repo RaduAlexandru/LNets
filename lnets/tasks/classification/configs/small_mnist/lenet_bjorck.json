@@ -10,11 +10,11 @@
         "power_iters": 2,
         "bjorck_beta": 0.5,
         "bjorck_iter": 5,
-        "bjorck_order": 1,
+        "bjorck_order": 2,
         "bias": true
       },
       "dropout_on": false,
-      "l_constant": 1.0,
+      "l_constant": 2.0,
       "output_dim": 10,
   
       "per_epoch_proj": {

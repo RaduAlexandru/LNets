@@ -1,7 +1,7 @@
 import torch.nn as nn
 
-from lnets.models.layers import *
-from lnets.models.activations import *
+from deps.lnets.lnets.models.layers import *
+from deps.lnets.lnets.models.activations import *
 
 
 def select_linear_layer(linear_type):

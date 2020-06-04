@@ -3,8 +3,8 @@ import json
 from torchvision.utils import save_image
 from munch import Munch
 
-from lnets.tasks.dualnets.visualize.visualize_dualnet import *
-from lnets.models import get_model
+from deps.lnets.lnets.tasks.dualnets.visualize.visualize_dualnet import *
+from deps.lnets.lnets.models import get_model
 
 
 def save_imgs(tensor, fname, save_dir):

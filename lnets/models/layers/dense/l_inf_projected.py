@@ -1,8 +1,8 @@
 import torch
 import torch.nn.functional as F
 
-from lnets.models.layers.dense.base_dense_linear import DenseLinear
-from lnets.utils.math.projections import get_weight_signs, get_linf_projection_threshold
+from deps.lnets.lnets.models.layers.dense.base_dense_linear import DenseLinear
+from deps.lnets.lnets.utils.math.projections import get_weight_signs, get_linf_projection_threshold
 
 
 class LInfProjectedLinear(DenseLinear):

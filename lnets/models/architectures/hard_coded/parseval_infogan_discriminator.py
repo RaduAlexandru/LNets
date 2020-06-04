@@ -1,8 +1,8 @@
 from torch import nn
 
-from lnets.models.layers import *
-from lnets.models.activations import *
-from lnets.models.architectures.base_architecture import Architecture
+from deps.lnets.lnets.models.layers import *
+from deps.lnets.lnets.models.activations import *
+from deps.lnets.lnets.models.architectures.base_architecture import Architecture
 
 
 class ParsevalInfoGanDiscriminator(Architecture):

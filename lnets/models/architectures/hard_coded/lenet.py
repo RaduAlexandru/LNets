@@ -1,8 +1,8 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-from lnets.models.layers import *
-from lnets.models.activations import MaxMin, GroupSort
+from deps.lnets.lnets.models.layers import *
+from deps.lnets.lnets.models.activations import MaxMin, GroupSort
 
 
 class LeNet(nn.Module):

@@ -1,6 +1,6 @@
-from lnets.models.architectures import *
-from lnets.models.model_types import *
-from lnets.models.layers import *
+from deps.lnets.lnets.models.architectures import *
+from deps.lnets.lnets.models.model_types import *
+from deps.lnets.lnets.models.layers import *
 
 MODEL_REGISTRY = {}
 

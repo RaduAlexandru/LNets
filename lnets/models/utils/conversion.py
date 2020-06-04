@@ -1,8 +1,8 @@
 import torch.nn as nn
 
-from lnets.models.layers import DenseLinear, StandardLinear
-from lnets.models.layers import BjorckLinear
-from lnets.utils.math.projections import bjorck_orthonormalize
+from deps.lnets.lnets.models.layers import DenseLinear, StandardLinear
+from deps.lnets.lnets.models.layers import BjorckLinear
+from deps.lnets.lnets.utils.math.projections import bjorck_orthonormalize
 
 
 def convert_to_bjorck_module(module_list, config):

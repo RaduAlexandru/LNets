@@ -3,8 +3,8 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import torchnet as tnt
 
-from lnets.models.model_types.base_model import ExperimentModel
-from lnets.models.regularization.spec_jac import jac_spectral_norm
+from deps.lnets.lnets.models.model_types.base_model import ExperimentModel
+from deps.lnets.lnets.models.regularization.spec_jac import jac_spectral_norm
 
 
 class ClassificationModel(ExperimentModel):

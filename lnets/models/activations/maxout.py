@@ -1,6 +1,6 @@
 import torch
 
-from lnets.models.activations.base_activation import Activation
+from deps.lnets.lnets.models.activations.base_activation import Activation
 
 
 class Maxout(Activation):

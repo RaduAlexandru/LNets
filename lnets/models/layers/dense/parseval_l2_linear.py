@@ -1,6 +1,6 @@
 import torch.nn.functional as F
 
-from lnets.models.layers.dense.base_dense_linear import DenseLinear
+from deps.lnets.lnets.models.layers.dense.base_dense_linear import DenseLinear
 
 
 class ParsevalL2Linear(DenseLinear):

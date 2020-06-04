@@ -2,8 +2,8 @@ import torch
 from torch.nn.modules.utils import _pair
 import torch.nn.functional as F
 
-from lnets.models.layers.conv.base_conv2d import BaseConv2D
-from lnets.utils.math.projections import get_weight_signs, get_linf_projection_threshold
+from deps.lnets.lnets.models.layers.conv.base_conv2d import BaseConv2D
+from deps.lnets.lnets.utils.math.projections import get_weight_signs, get_linf_projection_threshold
 
 
 class LInfProjectedConv2D(BaseConv2D):

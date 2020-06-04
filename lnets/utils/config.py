@@ -47,12 +47,12 @@ def get_config_overrides():
     return parser.parse_args()
 
 
-def process_config(verbose=True):
-    args = get_config_overrides()
-    config = json.load(open(args.config))
-    if args.o is not None:
-        print(args.o)
-        config = update(config, args.o)
+def process_config(config_path, verbose=True):
+    # args = get_config_overrides()
+    config = json.load(open(config_path))
+    # if args.o is not None:
+        # print(args.o)
+        # config = update(config, args.o)
 
     if verbose:
         import pprint

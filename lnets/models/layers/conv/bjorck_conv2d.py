@@ -1,8 +1,8 @@
 from torch.nn.modules.utils import _pair
 import torch.nn.functional as F
 
-from lnets.models.layers.conv.base_conv2d import BaseConv2D
-from lnets.utils.math.projections import bjorck_orthonormalize, get_safe_bjorck_scaling
+from deps.lnets.lnets.models.layers.conv.base_conv2d import BaseConv2D
+from deps.lnets.lnets.utils.math.projections import bjorck_orthonormalize, get_safe_bjorck_scaling
 
 
 class BjorckConv2d(BaseConv2D):

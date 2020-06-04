@@ -1,8 +1,8 @@
 import torch.nn as nn
 
-from lnets.models.layers import *
-from lnets.models.utils import *
-from lnets.models.architectures.base_architecture import Architecture
+from deps.lnets.lnets.models.layers import *
+from deps.lnets.lnets.models.utils import *
+from deps.lnets.lnets.models.architectures.base_architecture import Architecture
 
 
 class FullyConv2D(Architecture):

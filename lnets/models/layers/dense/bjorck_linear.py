@@ -1,7 +1,7 @@
 import torch.nn.functional as F
 
-from lnets.models.layers.dense.base_dense_linear import DenseLinear
-from lnets.utils.math.projections import bjorck_orthonormalize, get_safe_bjorck_scaling
+from deps.lnets.lnets.models.layers.dense.base_dense_linear import DenseLinear
+from deps.lnets.lnets.utils.math.projections import bjorck_orthonormalize, get_safe_bjorck_scaling
 
 
 class BjorckLinear(DenseLinear):

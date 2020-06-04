@@ -1,6 +1,6 @@
 import torch.nn as nn
 
-from lnets.models.activations import Activation
+from deps.lnets.lnets.models.activations import Activation
 
 
 class Architecture(nn.Module):

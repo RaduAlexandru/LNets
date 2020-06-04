@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn import Parameter
 
-from lnets.utils.math.projections import *
+from deps.lnets.lnets.utils.math.projections import *
 
 
 class DenseLinear(nn.Module):

@@ -1,3 +1,3 @@
-from lnets.models.layers.dense import *
-from lnets.models.layers.conv import *
-from lnets.models.layers.scale import Scale
+from deps.lnets.lnets.models.layers.dense import *
+from deps.lnets.lnets.models.layers.conv import *
+from deps.lnets.lnets.models.layers.scale import Scale

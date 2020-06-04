@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch.nn import Parameter
 
-from lnets.models.layers.dense.base_dense_linear import DenseLinear
+from deps.lnets.lnets.models.layers.dense.base_dense_linear import DenseLinear
 
 
 class SpectralNormLinear(DenseLinear):

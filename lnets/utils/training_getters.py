@@ -4,7 +4,7 @@ import torch
 import torch.optim.lr_scheduler as lr_scheduler
 from munch import Munch
 
-from lnets.optimizers.aggmo import AggMo
+from deps.lnets.lnets.optimizers.aggmo import AggMo
 
 
 def get_optimizer(config, params, momentum=None, betas=None):
